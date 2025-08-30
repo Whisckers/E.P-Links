@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrum PortLinks Engineering Botswana - Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      border: 10px solid #0989c3; /* or #005f99 */
+      margin: 0;
+      position: relative;
+    }
+
+    .watermark {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      opacity: 0.08;
+    }
+    .watermark img { width: 100%; height: 100%; object-fit: cover; }
+
+    .blue-bar {
+      width: 100%;
+      background-color: rgba(9, 137, 195, 0.9);
+      text-align: center;
+      padding: 10px 0;
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+      z-index: 2;
+      position: sticky;
+      top: 0;
+    }
+
+    .swiper {
+      padding: 30px 0;
+      z-index: 1;
+      position: relative;
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      background: white;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    footer {
+      background-color: rgb(63,63,63);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+        /* Decorated Navbar */
+    .navbar {
+        background: linear-gradient(135deg, #0989c3, #005f99);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        border-radius: 8px;
+    }
+
+    .navbar .nav-link {
+        color: #fff;
+        font-weight: 600;
+        padding: 8px 15px;
+        transition: all 0.3s ease;
+        border-radius: 5px;
+    }
+
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus {
+        background-color: rgba(255,255,255,0.2);
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+    .navbar .dropdown-menu {
+        background-color: #097bc3;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .navbar .dropdown-item {
+        color: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .dropdown-item:hover {
+        background-color: rgba(255,255,255,0.2);
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+    .navbar .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+  <!-- Header -->
+<!-- Header -->
+<header class="text-center">
+  <img src="Final Logo.jpg" alt="Electrum Logo" class="img-fluid mb-3 logo-clean">
+</header>
+
+
+<body>
+
+  <!-- Watermark -->
+  <div class="watermark">
+    <img src="substation.jpg" alt="Watermark">
+  </div>
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark blue-bar sticky-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Electrum PortLinks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="Home Page.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Company Overview</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="About Us.html">About Us</a></li>
+              <li><a class="dropdown-item" href="Director's Statement.html">Director's Statement</a></li>
+              <li><a class="dropdown-item" href="company structure.html">Company Structure</a></li>
+              <li><a class="dropdown-item" href="Vision and Mission Statements.html">Vision & Mission</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services Offered</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Electrical Installations.html">Electrical Works</a></li>
+              <li><a class="dropdown-item" href="Instrumentations installations.html">Instrumentation Works</a></li>
+              <li><a class="dropdown-item" href="Mechanical installations.html">Mechanical Works</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Equipment Catalogue</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Automotive Tech1.html">Automobile Device Equipment</a></li>
+              <li><a class="dropdown-item" href="Surveillence Monitoring Technology.html">Surveillance Systems</a></li>
+              <li><a class="dropdown-item" href="Acces Control Technology.html">Access Control Systems</a></li>
+              <li><a class="dropdown-item" href="Telecom Networking Catalogue.html">Telecom & Networking Devices</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="Jobs Performed.html">Jobs Performed</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact Form.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Swiper Cards -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="odc.jpg" alt="Network Cabinet">
+          <div class="card-body">
+            <h5 class="card-title">Network Cabinet Installation in Molopolole</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="ip1.jpg" alt="Residential IP Camera">
+          <div class="card-body">
+            <h5 class="card-title">Residential IP Camera Installation</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="ip2.jpg" alt="Outdoor IP Camera">
+          <div class="card-body">
+            <h5 class="card-title">Outdoor Bullet IP Camera Setup</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="ip3.jpg" alt="Cable Relocation">
+          <div class="card-body">
+            <h5 class="card-title">Cable Relocation</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="ipp3.jpg" alt="Remote Configuration">
+          <div class="card-body">
+            <h5 class="card-title">Remote Configuration for Wireless CCTV System</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="z1.jpg" alt="360 IP Wireless Camera">
+          <div class="card-body">
+            <h5 class="card-title">360 IP Wireless Camera Letlhakane</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="z3.png" alt="CCTV Mounting">
+          <div class="card-body">
+            <h5 class="card-title">CCTV Mounting and Cable Alignment</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Footer -->
+     <footer>
+        <p>
+            Copyright © 2024 IEC Botswana. All Rights Reserved.<br>
+            Designed by B.Mutema<br>
+        </p>
+        <a href="home page.html" style="display:inline-block; margin-top:10px;">
+            <img src="picfoot.png" alt="Logo" width="250" height="80">
+        </a>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        576: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
+      }
+    });
+  </script>
+</body>
+</html>
